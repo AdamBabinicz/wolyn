@@ -38,14 +38,12 @@ export const Hero = () => {
       </section>
       <Modal show={modal} close={Toggle} title="Tło wydarzeń">
         <p>
-          Tej taktyki masowych mordów Ukraińcy nauczyli się od Niemców. To
-          dlatego czystki etniczne UPA zaskakiwały swą skutecznością i dlatego
-          wołyńscy Polacy w 1943 r. byli niemal tak samo bezradni jak Żydzi na
-          Wołyniu w 1942 r. Kampania przeciwko Polakom zaczęła się na Wołyniu, a
-          nie w Galicji, prawdopodobnie właśnie dlatego, że tutaj policja
-          ukraińska odegrała większą rolę w wydarzeniach Holokaustu. Łączy to
-          zagładę Żydów z rzezią Polaków i wyjaśnia obecność na Wołyniu tysięcy
-          doświadczonych w ludobójstwie Ukraińców.
+          Tej taktyki masowych mordów Ukraińcy nauczyli się od Niemców. [...]
+          Kampania przeciwko Polakom zaczęła się na Wołyniu, a nie w Galicji,
+          prawdopodobnie właśnie dlatego, że tutaj policja ukraińska odegrała
+          większą rolę w wydarzeniach Holokaustu. Łączy to zagładę Żydów z
+          rzezią Polaków i wyjaśnia obecność na Wołyniu tysięcy doświadczonych w
+          ludobójstwie Ukraińców.
         </p>
         <p>
           <em>pl.wikipedia.org/wiki/Rze%C5%BA_wo%C5%82y%C5%84ska</em>

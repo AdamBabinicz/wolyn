@@ -129,7 +129,7 @@ header .logo img {
   }
   button {
     margin-top: 0;
-    padding: 0;
+    padding: 1rem 2rem;
   }
   .hideMenu {
     display: block;
