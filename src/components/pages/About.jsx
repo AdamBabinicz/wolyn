@@ -40,7 +40,7 @@ export const About = () => {
                   zbrojnej i planu usunięcia polskiej ludności Wołynia.
                 </p>
                 <p>
-                  <em>pl.wikipedia.org/wiki/Rze%C5%BA_wo%C5%82y%C5%84ska</em>
+                  <em>pl.wikipedia.org/wiki</em>
                 </p>
               </Modal>
               <Modal1
@@ -57,7 +57,7 @@ export const About = () => {
                   Niemcy w ramach akcji <i>Intelligenzaktion</i>.
                 </p>
                 <p>
-                  <em>pl.wikipedia.org/wiki/Rze%C5%BA_wo%C5%82y%C5%84ska</em>
+                  <em>pl.wikipedia.org/wiki</em>
                 </p>
               </Modal1>
             </>

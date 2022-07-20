@@ -46,7 +46,7 @@ export const Hero = () => {
           ludobójstwie Ukraińców.
         </p>
         <p>
-          <em>pl.wikipedia.org/wiki/Rze%C5%BA_wo%C5%82y%C5%84ska</em>
+          <em>pl.wikipedia.org/wiki</em>
         </p>
       </Modal>
     </>
