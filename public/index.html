@@ -1,43 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="…niedaleko już szkoły napotkaliśmy leżącą kobietę z dzieckiem przy piersi, dziecko przygwożdżone widłami do matki i tak te widły sterczały w ciele dziecka i matki. - Tadeusz Kański"
     />
+    <meta
+      name="Po przejściu całej wioski żołnierze napotkali jeszcze kilka grobów masowych. Tym, co najbardziej dotknęło autora relacji, był widok wydostającej się na powierzchnię mogił piany zabarwionej krwią i strużki krwi wyciekające z przysypanych grobów, co mogło świadczyć o tym, że ludzie tam pogrzebani wówczas jeszcze żyli. Tadeusz Kański jako osoba, która ujrzała wieś po tragicznych mordach oddziałów UPA stwierdził, że nie zrobili tego ludzie, ale byli to szatani w ludzkiej skórze."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content=" „29 sierpnia 1943 r. przeprowadziłem akcję we wsiach Wola Ostrowiecka, Ostrówki rejonu hołowiańskiego. Zniszczyłem wszystkich Polaków od małego do starego. Wszystkie budynki spaliłem, a mienie i bydło zabrałem na potrzeby kurenia”. -  „Łysoho”"
+    />
+    <meta property="og:url" content="https://aktywny.netlify.app" />
+    <meta property="og:image" content="https://aktywny.netlify.app/1.png" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="… leżała zabita od kuli w głowę, obok niej synek 9 miesięcy, główkę miało wdeptaną w ziemię, a nożem czy bagnetem w szyjkę ugodzone […] widocznie okrutny morderca butem stanął na główce, a nożem zadawał śmiertelne rany. - Józefa Cyniak z d. Fila"
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="W relacji Remiszewskiego znajduje się bardzo drastyczne zdarzenie, gdy żołnierz UPA wbił dziecko na bagnet i podniósł je do góry, gdy się jeszcze ruszało, a żołnierz wołał „To polski Orzeł!”."
+    />
+    <meta
+      property="business:contact_data:region"
+      content="W II Rzeczypospolitej mieszkało około pięciu milionów Ukraińców, tj. 16 proc. wszystkich obywateli państwa polskiego. Na Wołyniu było jednak dokładnie odwrotnie – to Polaków było 16 proc. Ukraińcy stanowili większość także w Galicji Wschodniej: w województwach stanisławowskim, tarnopolskim i wschodniej części lwowskiego."
+    />
+    <meta property="business:contact_data:postal_code" content="61000–61499" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Rzeź wołyńską od innych ludobójstw odróżnia tyleż okrucieństwo, co prymitywizm środków użytych do jej przeprowadzenia."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="//twitter.com/AdamBabinicz" />
+    <meta
+      name="twitter:title"
+      content="Polscy historycy są zgodni, że w żadnym wypadku nie wolno stawiać znaku równości między działaniami OUN-B i UPA a polskim odwetem."
+    />
+    <meta
+      name="twitter:description"
+      content="Dzisiaj na Ukrainie, zwłaszcza w jej zachodniej części, jest wiele pomników czy ulic Stepana Bandery. Próbuje się budować tożsamość narodową na micie OUN i UPA."
+    />
+    <meta name="twitter:image" content="https://aktywny.netlify.app/5.jpg" />
+    <meta name="twitter:image:alt" content="Aktywność" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Rzeź wołyńska</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "– Polska powinna egzekwować trzy kwestie: ekshumacja i poszukiwanie ofiar, restytucja polskich kościołów na Ukrainie oraz brak zgody na prowokacje – powiedział w Programie 3 Polskiego Radia wicemarszałek Sejmu Piotr Zgorzelski (PSL).",
+        "contentUrl": "https://www.facebook.com/adam.gierczak.334",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://aktywny.netlify.app/9.jpg",
+        "uploadDate": "2022-07-03",
+        "description": "- Ukraińcy nie godzą się na nasze poszukiwania tych miejsc, ekshumacje, pochówki, upamiętnienia. Jednak teraz odblokowali się na ten temat i chcą o tym rozmawiać. Po prostu zauważyli, że ta historia nie powinna ciążyć na naszych relacjach w tak mocny sposób, w sytuacji, kiedy pokazaliśmy, kto jest prawdziwym przyjacielem Ukrainy - powiedział Jarosław Sellin."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://aktywny.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Postęp w nauce często opiera się na błędnych teoriach, które są później korygowane. Lepiej się mylić, niż być niezdecydowanym. - Dyson Freeman",
+        "url": "https://aktywny.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/AkademiaAktywnosciRadom",
+          "https://twitter.com/mz_gov_pl/status/1426082341663870976",
+          "https://pl.wikipedia.org/wiki/%C4%86wiczenia_fizyczne",
+          "https://www.gov.pl/web/rodzina/seniorzy",
+          "https://pl.pinterest.com/osellerpl/aktywno%C5%9B%C4%87-fizyczna-w%C5%9Br%C3%B3d-senior%C3%B3w"
+        ]
+      }
+    </script>
   </body>
 </html>
