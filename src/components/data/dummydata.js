@@ -143,7 +143,7 @@ export const portfolio = [
   {
     id: 1,
     cover: "../images/port/2.jpg",
-    name: "Przybijanie nożem do stołu języczka małego dziecka, które później wisiało na nim.",
+    name: "Przybijanie gwoździami do stołu języczka małego dziecka, które później wisiało na nich.",
     category: "dzieciom",
     title: "Masakrowanie dzieci",
   },
