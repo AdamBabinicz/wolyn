@@ -21,6 +21,7 @@ export const Header = () => {
                 key={i}
                 data-aos="zoom-in-left"
                 onClick={() => setResponsive(!responsive)}
+                className="link"
               >
                 {links.text}
               </Link>
