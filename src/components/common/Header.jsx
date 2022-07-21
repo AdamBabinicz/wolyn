@@ -26,9 +26,9 @@ export const Header = () => {
               </Link>
             ))}
           </div>
-          <button className="toggle" onClick={() => setResponsive(!responsive)}>
+          <div className="toggle" onClick={() => setResponsive(!responsive)}>
             <Menu className="icon" />
-          </button>
+          </div>
         </div>
       </header>
     </>

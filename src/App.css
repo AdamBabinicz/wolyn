@@ -449,9 +449,14 @@ footer a:hover {
     margin-bottom: 1rem;
   }
   .catButton {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .catButton button {
+    margin: 0.6rem;
   }
   article img {
     height: 22rem;
@@ -510,7 +515,7 @@ footer a:hover {
     height: 100%;
   }
   .testimonials::after {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
       url("../public/images/3.jpg") center/cover no-repeat;
     min-height: 100%;
   }
