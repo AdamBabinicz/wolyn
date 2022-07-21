@@ -465,9 +465,11 @@ footer a:hover {
     grid-gap: 1rem; */
     display: flex;
     flex-wrap: wrap;
+    background: green;
   }
   .catButton button {
-    margin: 0.4rem;
+    margin: auto;
+    margin-bottom: 0.5rem;
   }
   article img {
     height: 22rem;
